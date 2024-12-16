@@ -5,12 +5,12 @@ This is the code accompanying the  "A Data-aware Probabilistic Client Sampling S
 ### Overview
 
 ---
-In this paper, to address these challenges, we propose a Data aware Probabilistic Client Sampling scheme (DPCS) for selecting appropriate clients to participate in model training in each round of federated learning
+In this paper, we propose a Data aware Probabilistic Client Sampling scheme (DPCS) for selecting appropriate clients to participate in model training in each round of federated learning
 
 ### Depdendencies
 
 ---
-Tested stable depdencises:
+Tested stable depdencies:
 
 * python 3.12.3 (conda)
 
@@ -18,10 +18,8 @@ Tested stable depdencises:
 
 * torchvision 0.18.0
 
-### Experients over Image Classification Task:
-
+### Argument
 ---
-The main result related to the image classification task i.e. VGG-9 on CIFAR-10 can be reproduced via running `./run.sh`. The following arguments to the `./main.py` file control the important parameters of the experiment.
 
 | Argument                      | Description                                 |
 | ----------------------------- | ---------------------------------------- |
@@ -29,7 +27,6 @@ The main result related to the image classification task i.e. VGG-9 on CIFAR-10 
 | `dataset`      | Dataset to use. |
 | `local_lr` | Learning rate that will be use. |
 | `train_batch_size` | Batch size for the optimizers e.g. SGD or Adam. |
-| `epochs` | Locally training epochs. |
 | `local_epoch` | Local re-training epochs. |
 | `client_num` | Number of  clients. |
 | `rounds`    | Number of communication rounds to use . |
@@ -39,5 +36,3 @@ The main result related to the image classification task i.e. VGG-9 on CIFAR-10 
 ```python
 python server.py 
 ```
-
-
