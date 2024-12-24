@@ -36,3 +36,16 @@ Tested stable depdencies:
 ```python
 python server.py 
 ```
+
+### Citation
+
+---
+If you find this project helpful, please consider to cite the following paper:
+```bibtex
+@inproceedings{chaosong2024dataaware,
+    title = {A Data-aware Probabilistic Client Sampling Scheme in Streaming Federated Learning},
+    author = {Chao Song, Jianfeng Huang, Jie Wu and Li Lu},
+    year =  {2024},
+    booktitle = { {IEEE} Global Communications Conference ({GLOBECOM})},
+}
+```
